@@ -90,7 +90,7 @@ az ad group create \
 # 4️ Add the user to the group
 az ad group member add \
   --group "Technical Support Group" \
-  --member-id $(az ad user show --id tobi.okeke@testlab.com --query objectId -o tsv)
+  --member-id $(az ad user show --id tobiokeke@ezikaifunanya98gmail.onmicrosoft.com --query objectId -o tsv)
 
 # 5️  Verify group membership
 az ad group member list \
