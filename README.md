@@ -61,7 +61,42 @@ The lab showcases user and group management, least-privilege access, and governa
 - Azure Role-Based Access Control (RBAC)  
 - Azure Resource Management  
 - Security Policy Enforcement  
-- PowerShell & Azure CLI Scripting  
+- PowerShell & Azure CLI Scripting
+
+  
+# Azure IAM / RBAC Lab Commands
+
+
+# 1️ Login to Azure
+az login
+
+# 2️ Create a new user: Tobi Okeke
+# Employee ID: FCL-SUP-119
+# Role: Technical Support & Response Analyst
+az ad user create \
+  --display-name "Tobi Okeke" \
+  --user-principal-name tobi.okeke@ezikaifunanya98gmail.onmicrosoft.com \
+  --password "TempPass123!" \
+  --force-change-password-next-login true \
+  --job-title "Technical Support & Response Analyst" \
+  --department "Technical Support"
+
+# 3️ Create a new group
+# Example: Technical Support Group
+az ad group create \
+  --display-name "Technical Support Group" \
+  --mail-nickname "TechSupportGrp"
+
+# 4️ Add the user to the group
+az ad group member add \
+  --group "Technical Support Group" \
+  --member-id $(az ad user show --id tobi.okeke@testlab.com --query objectId -o tsv)
+
+# 5️  Verify group membership
+az ad group member list \
+  --group "Technical Support Group" \
+  --query "[].displayName" \
+  -a table
 
 
 
