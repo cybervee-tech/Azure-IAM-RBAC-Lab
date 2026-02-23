@@ -71,7 +71,7 @@ The lab showcases user and group management, least-privilege access, and governa
 az login
 
 # 2️ Create a new user: Tobi Okeke
-# Employee ID: FCL-SUP-119
+
 # Role: Technical Support & Response Analyst
 az ad user create \
   --display-name "Tobi Okeke" \
