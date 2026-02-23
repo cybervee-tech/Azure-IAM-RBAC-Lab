@@ -82,7 +82,7 @@ az ad user create \
   --department "Technical Support"
 
 # 3️ Create a new group
-# Example: Technical Support Group
+#  Technical Support Group
 az ad group create \
   --display-name "Technical Support Group" \
   --mail-nickname "TechSupportGrp"
