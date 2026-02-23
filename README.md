@@ -65,5 +65,18 @@ The lab showcases user and group management, least-privilege access, and governa
 
 
 
-##  Screenshots##  Lab Screenshots
+##  Lab Screenshots
+<img width="1586" height="566" alt="Resource group (2)" src="https://github.com/user-attachments/assets/785edf53-26c0-4bcc-9714-8b47c35aab42" />
+<img width="1846" height="810" alt="Groups created" src="https://github.com/user-attachments/assets/fedef520-6820-48c8-97e5-b64a37226404" />
+<img width="1403" height="719" alt="Users created" src="https://github.com/user-attachments/assets/de1d5580-176a-4db0-a5ea-a187791c3a6d" />
+<img width="1457" height="642" alt="Assigning role to a group" src="https://github.com/user-attachments/assets/b2df7b7c-4215-4b69-be7f-96cb1468d7d3" />
+<img width="1704" height="529" alt="verified the assigned role" src="https://github.com/user-attachments/assets/6a18fd30-fc3f-4b8f-9730-274e98afe514" />
+<img width="1483" height="686" alt="Platform group and user showing" src="https://github.com/user-attachments/assets/cf51aa22-bedc-4162-b3df-ca4561928777" />
+
+
+
+
+
+
+
 
