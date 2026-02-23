@@ -71,8 +71,6 @@ The lab showcases user and group management, least-privilege access, and governa
 az login
 
 # 2️ Create a new user: Tobi Okeke
-
-# Role: Technical Support & Response Analyst
 az ad user create \
   --display-name "Tobi Okeke" \
   --user-principal-name tobi.okeke@ezikaifunanya98gmail.onmicrosoft.com \
@@ -82,7 +80,6 @@ az ad user create \
   --department "Technical Support"
 
 # 3️ Create a new group
-#  Technical Support Group
 az ad group create \
   --display-name "Technical Support Group" \
   --mail-nickname "TechSupportGrp"
