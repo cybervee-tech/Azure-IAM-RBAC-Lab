@@ -1,6 +1,6 @@
 # Azure Identity & Access Management (IAM) with Role-Based Access Control (RBAC)
 Demonstration of secure identity and access management using Microsoft Entra ID and Azure RBAC in a simulated enterprise environment for FuturinCLOUD Limited.
-Azure Identity & Access Management (IAM) with Role-Based Access Control (RBAC)
+
 
 
 **Author:** Ezika Ifunanya Vera  
@@ -38,38 +38,57 @@ The lab showcases user and group management, least-privilege access, and governa
 | 4 | Assigned RBAC role to Technical Support group | Azure Portal |
 | 5 | Verified permissions using Access Control (IAM) blade | Portal / CLI |
 
+ **Azure IAM Lab  – Full Documentation**  
+[Open detailed report (PDF) →](https://github.com/cybervee-tech/Azure-IAM-RBAC-Lab/blob/main/docs/Azure%20IAM%20LAB.pdf)  
+
+**Azure CLI and PowerShell Commands Used**
+[open detailed document (PDF)  →](https://github.com/cybervee-tech/Azure-IAM-RBAC-Lab/blob/main/docs/Azure%20CLI%20and%20Powershell%20commands%20.pdf)
+
+
+
 
 
 ##  Security Principles Demonstrated
 - **Least Privilege:** Roles scoped to the resource group  
 - **Zero Trust:** Authentication enforced for all actions  
 - **Group-Based Access:** Simplified auditing and scalability  
-- **Password Hygiene:** Strong password + mandatory reset  
+- **Password Hygiene:** Strong password + mandatory reset
 
-
-
-##  Key Takeaways
-- Use **groups**, not individuals, for access management  
-- Always apply **RBAC** at the smallest possible scope  
-- Regularly review and audit **permissions & access logs**  
-
-
-
-##  Skills Gained
+  ##  Skills Gained
 - Microsoft Entra ID Administration  
 - Azure Role-Based Access Control (RBAC)  
 - Azure Resource Management  
 - Security Policy Enforcement  
 - PowerShell & Azure CLI Scripting
+  
+
+
+
+## **Recommendation** 
+
+
+The following recommendations are proposed to strengthen identity and access management in a production-like FuturinCLOUD environment:
+
+-Enable multi-factor authentication (MFA) for all users (especially admins) to protect against credential compromise.
+
+-Implement Privileged Identity Management (PIM) to provide just-in-time and time-bound access to elevated roles instead of permanent assignments.
+
+-Use Conditional Access policies to restrict sign-ins based on location, device compliance, or risk level.
+
+
+-Regularly review role assignments using Access Reviews in Microsoft Entra ID to ensure only necessary permissions remain active.
+
+-Adopt least-privilege at scale by creating more granular custom roles (e.g., “VM Reader” instead of Contributor) for future labs and projects.
+
+-Centralize identity governance by integrating Microsoft Entra ID with Azure Policy to enforce RBAC standards across all resource groups and subscriptions.
+
+
+
 
   
 
- **Azure IAM Lab  – Full Documentation**  
-[Open detailed report (PDF) →](https://github.com/cybervee-tech/Azure-IAM-RBAC-Lab/blob/main/docs/Azure%20IAM%20LAB.pdf)  
 
 
-**Azure CLI and PowerShell Commands Used**
-[open detailed document (PDF)  →](https://github.com/cybervee-tech/Azure-IAM-RBAC-Lab/blob/main/docs/Azure%20CLI%20and%20Powershell%20commands%20.pdf)
 
 
 
