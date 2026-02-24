@@ -67,7 +67,7 @@ The lab showcases user and group management, least-privilege access, and governa
 
  **Azure IAM Lab  – Full Documentation**  
 [Open detailed report (PDF) →](https://github.com/cybervee-tech/Azure-IAM-RBAC-Lab/blob/main/docs/Azure%20IAM%20LAB.pdf)  
-(12 pages including screenshots, steps, challenges & results)
+
 
 **Azure CLI and PowerShell Commands Used**
 [open detailed document (PDF)  →](https://github.com/cybervee-tech/Azure-IAM-RBAC-Lab/blob/main/docs/Azure%20CLI%20and%20Powershell%20commands%20.pdf)
