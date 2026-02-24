@@ -1,8 +1,7 @@
-# Azure-IAM-RBAC-Lab
+# Azure Identity & Access Management (IAM) with Role-Based Access Control (RBAC)
 Demonstration of secure identity and access management using Microsoft Entra ID and Azure RBAC in a simulated enterprise environment for FuturinCLOUD Limited.
 Azure Identity & Access Management (IAM) with Role-Based Access Control (RBAC)
 
-# Azure Identity & Access Management (IAM) with Role-Based Access Control (RBAC)
 
 **Author:** Ezika Ifunanya Vera  
 **Date:** February 2026  
