@@ -64,42 +64,13 @@ The lab showcases user and group management, least-privilege access, and governa
 - PowerShell & Azure CLI Scripting
 
   
-# Azure IAM / RBAC Lab Commands
-
-
-# 1️ Login to Azure
-az login
-
-# 2️ Create a new user: Tobi Okeke
-az ad user create \
-  --display-name "Tobi Okeke" \
-  --user-principal-name tobi.okeke@ezikaifunanya98gmail.onmicrosoft.com \
-  --password "TempPass123!" \
-  --force-change-password-next-login true \
-  --job-title "Technical Support & Response Analyst" \
-  --department "Technical Support"
-
-# 3️ Create a new group
-az ad group create \
-  --display-name "Technical Support Group" \
-  --mail-nickname "TechSupportGrp"
-
-# 4️ Add the user to the group
-az ad group member add \
-  --group "Technical Support Group" \
-  --member-id $(az ad user show --id tobiokeke@ezikaifunanya98gmail.onmicrosoft.com --query objectId -o tsv)
-
-# 5️  Verify group membership
-az ad group member list \
-  --group "Technical Support Group" \
-  --query "[].displayName" \
-  -a table
-
-
 
  **Azure IAM Lab  – Full Documentation**  
 [Open detailed report (PDF) →](https://github.com/cybervee-tech/Azure-IAM-RBAC-Lab/blob/main/docs/Azure%20IAM%20LAB.pdf)  
 (12 pages including screenshots, steps, challenges & results)
+
+**Azure CLI and PowerShell Commands Used**
+[open detailed document (PDF)  →](https://github.com/cybervee-tech/Azure-IAM-RBAC-Lab/blob/main/docs/Azure%20CLI%20and%20Powershell%20commands%20.pdf)
 
 
 
